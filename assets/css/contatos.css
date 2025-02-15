@@ -1,0 +1,246 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", serif;
+    user-select: none;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+/* ESTILOS INICIO (HEADER) */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #590091;  
+    padding: 10px;
+    border-bottom: 2px solid #ffbf00;
+}
+
+h1 a{
+    color: #fff;
+    text-align: center;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin: 40px;
+}
+
+ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.20s;
+}
+
+ul li a:hover{
+    color: #80ff7a;
+    background-color: blueviolet;
+    border-radius: 7px;
+}
+
+button{
+    padding: 10px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+header i{
+    font-size: 30px;
+    color: #fff;
+    margin: 0 10px;
+    transition: 0.20s;
+}
+
+header i:hover{
+    color: #ff0000;
+}
+
+#ativado{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 7px;
+}
+/* FIM ESTILOS INICIO (HEADER) */
+
+/* ESTILOS MAIN */
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1{
+    font-size: 40px;
+    color: #000;
+    margin: 30px;
+    border-bottom: 4px solid #590091;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.campo-escrever{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.info-formulario h2{
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #590091;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+textarea{
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #590091;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+form button{
+    background-color: #590091;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.20s;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #9500ff;
+}
+/* FIM ESTILOS MAIN */
+
+/* ESTILOS FINAL (FOOTER) */
+footer{
+    background: #000;
+    padding: 20px;
+    border-top: 2px solid #ffbf00;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    margin: 0 auto;
+}
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.redes-sociais h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.lk-redes{
+    font-size: 30px;
+}
+
+.lk-redes i{
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.redes-sociais i{
+    color: #fff;
+    transition: 0.20s;
+}
+
+.redes-sociais i:hover{
+    color: #555;
+}
+
+.links-uteis{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: #fff;
+}
+
+.links-uteis h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.links-uteis a{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.20s;
+}
+
+.links-uteis a:hover{
+    color: #555;
+}
