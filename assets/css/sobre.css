@@ -246,3 +246,11 @@ footer{
 .links-uteis a:hover{
     color: #555;
 }
+
+footer p{
+    margin: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-top: 2px solid #2c2c2c;
+}
