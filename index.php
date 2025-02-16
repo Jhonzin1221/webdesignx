@@ -74,8 +74,6 @@
     function produtos(){
         window.location.href = "produtos.php";
         }
-
-        
 </script>
 </body>
 </html>
