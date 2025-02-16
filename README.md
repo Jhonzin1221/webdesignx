@@ -12,7 +12,7 @@
 # 
 # Data de envio: 15/02/2025 - 11:55
 # Ultima atualização: 15/02/2025 - 11:55
-# Versão: 0.0.1
+# Versão: 0.0.2
 # Linguagens: PHP, MYSQL, JAVASCRIPT.
 #
 # ///////////////////////////////////////////////////
